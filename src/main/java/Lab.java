@@ -1,3 +1,4 @@
+import java.io.Console;
 
 public class Lab {
     /**
@@ -14,6 +15,9 @@ public class Lab {
      * event happens, like running out of computer memory.
      */
     public void throwUncheckedException(){
-
+        int zero = 0;
+        int two = 2;
+        double dblDivZero = (two/zero);
+        System.out.println(dblDivZero);
     }
 }
